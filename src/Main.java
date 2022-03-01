@@ -9,6 +9,7 @@ public class Main {
         printOptionScreen();
 
         while(using) {
+            System.out.println("\nEnter 6 to view menu");
             System.out.print("Option: ");
             int choice = scanner.nextInt();
             scanner.nextLine();
